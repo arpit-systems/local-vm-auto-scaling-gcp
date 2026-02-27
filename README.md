@@ -1,4 +1,4 @@
-# Local VM Auto-Scaling to Google Cloud
+<img width="1742" height="855" alt="image" src="https://github.com/user-attachments/assets/a2a5e41c-f46e-4185-900d-77e983b5519d" /># Local VM Auto-Scaling to Google Cloud
 
 ## Project Overview
 This project demonstrates automatic scaling from a local virtual machine to Google Cloud when CPU usage exceeds 75 percent.
@@ -16,6 +16,9 @@ To monitor system resource usage on a local VM and automatically launch a cloud 
 
 ## Architecture Flow
 Local VM → Monitoring Script → Threshold Detection → Scaling Trigger → Cloud VM Launch
+## Architecture Diagram
+
+![Architecture Diagram](architecture-diagram.jpg)
 
 ## How It Works
 1. Local VM runs a sample web application.
